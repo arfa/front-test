@@ -1,0 +1,36 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.label {
+  color: #455980;
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 18px;
+  margin-bottom: 16px;
+}
+
+.progress {
+  width: calc(100% + 32px);
+  margin: 0 -16px -16px -16px;
+  height: 8px;
+  border-radius: 6px;
+}
+
+progress[value]::-webkit-progress-value {
+  -webkit-appearance: none;
+  appearance: none;
+  width: calc(100% + 32px);
+  background: linear-gradient(90deg, #87fae1 16.37%, #11fac7 82.81%);
+  border-radius: 6px;
+}
+
+progress[value]::-webkit-progress-bar {
+  -webkit-appearance: none;
+  appearance: none;
+  background: transparent;
+}
+

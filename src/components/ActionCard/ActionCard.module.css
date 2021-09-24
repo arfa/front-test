@@ -1,0 +1,29 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  background: #f6f6fe;
+  border-radius: 8px;
+  padding: 16px;
+}
+
+.card:first-child {
+  border-top: none;
+}
+
+.card:nth-child(n) {
+  border-bottom: 1px solid #f1f7fd;
+}
+
+.card:last-child {
+  border-bottom: none;
+}
+
+.card-body {
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 18px;
+
+  color: #455980;
+}
